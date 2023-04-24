@@ -29,11 +29,12 @@
 
 Далее создайте bash скрипт для запуска бота
 
-`source /venv/bin/activate # активируйте окружение среды
+```
+source /venv/bin/activate # активируйте окружение среды
 cd pwd/bot # зайдите в папку с ботом
 export TOKEN=YOUR_TOKEN_TELEGRAM # создайте перменные с вашими ключами
 export OpenWeatherMap_Key=YOUR_TOKEN_API
 export CURRENCY_API_KEY=YOUR_TOKEN_API
 python3 bot.py  # запустите бота
-`
+```
 
